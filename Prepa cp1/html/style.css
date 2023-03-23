@@ -1,0 +1,13 @@
+.menu {
+  list-style: none;
+}
+
+.art1-mod,
+.art2-mod,
+.art3-mod {
+  display: none;
+}
+
+/* Ajout du style permettant de modifier la taille du logo 
+
+Ajout du style permettant de mettre tout le header sur une meme ligne. */
