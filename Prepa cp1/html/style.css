@@ -8,6 +8,25 @@
   display: none;
 }
 
-/* Ajout du style permettant de modifier la taille du logo 
+/* Ajout du style permettant de modifier la taille du logo */
 
-Ajout du style permettant de mettre tout le header sur une meme ligne. */
+.logo {
+  width: 150px;
+}
+
+/*Ajout du style permettant de mettre tout le header sur une meme ligne. */
+header {
+  display: flex;
+  flex-direction: row; /* Donne  la direction de la flexbox*/
+  align-items: center; /* Permet d'aligner les éléments sur l'axe horizontal (Attention, l'axe change selon la direction de la flexbox)*/
+  justify-content: space-between; /*espace entre les element contenue dans la box.*/
+}
+
+.menu {
+  width: 100vh;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
