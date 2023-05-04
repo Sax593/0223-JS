@@ -1,3 +1,5 @@
+import PlantCard from "@components/PlantCard/PlantCard";
+
 export default function Home() {
-  return <p>Bonsoir</p>;
+  return <PlantCard />;
 }
