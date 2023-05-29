@@ -34,6 +34,11 @@ const ItemManager = require("./ItemManager");
 models.item = new ItemManager();
 models.item.setDatabase(pool);
 
+const CharactereManager = require("./CharacterManager");
+
+models.character = new CharactereManager();
+models.character.setDatabase(pool);
+
 // bonus: use a proxy to personalize error message,
 // when asking for a non existing model
 
