@@ -11,7 +11,9 @@ router.post("/items", itemControllers.add);
 router.delete("/items/:id", itemControllers.destroy);
 
 const loginControllers = require("./controllers/loginControllers");
+const hashedPassword = require("./services/hashedPassword");
 
 router.post("/login/users", loginControllers.login);
+router.post("/register", hashedPassword, loginControllers.register);
 
 module.exports = router;
